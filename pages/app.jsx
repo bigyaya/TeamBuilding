@@ -1,6 +1,6 @@
 // /pages/app.jsx
 
-import '../styles/globals.css'; // Assurez-vous que le chemin est correct
+import '../styles/globals.css';
 
 function MonApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
