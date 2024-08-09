@@ -1,5 +1,3 @@
-// /pages/app.jsx
-
 import '../styles/globals.css';
 
 function MonApp({ Component, pageProps }) {
@@ -7,3 +5,7 @@ function MonApp({ Component, pageProps }) {
 }
 
 export default MonApp;
+
+export async function getServerSideProps() {
+  return { props: {} };
+}
